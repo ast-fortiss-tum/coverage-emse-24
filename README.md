@@ -1,11 +1,11 @@
-# coverage-emse-24
+# Study: Coverage of Failures with SBT
 This repository holds the implementation and evaluation results of the study in the paper "Can Optimization-Driven Search-Based Testing Effectively Cover Failure-Revealing Test Inputs? Insights from Two DL-Enabled Case Studies".
 
 # Results
 
 ## AVP
 
-The results of the AVP Case Study can be found here: [\results-avp](\ref-set\avp\oracle-variation)
+The results of the AVP Case Study can be found here: [\results-avp](\results-avp)
 
 The corresponding reference sets used for CID evaluation can be found here: [\ref-set\avp](\ref-set\avp\oracle-variation) 
 ## MNIST
