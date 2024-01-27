@@ -7,22 +7,25 @@ This repository holds the implementation and evaluation results of the study in 
 
 The results of the AVP Case Study can be found here: [\results-avp](results-avp)
 
-The corresponding reference sets used for CID evaluation can be found here: [\ref-set\avp](\ref-set\avp\oracle-variation) 
+The corresponding reference sets used for CID evaluation can be found here: [\ref-set\avp](ref-set\avp\oracle-variation) 
 ## MNIST
 
-The results of the AVP Case Study can be found here: [\results-mnist](\results-mnist)
+The results of the AVP Case Study can be found here: [\results-mnist](results-mnist)
 
-The corresponding reference sets used for CID evaluation can be found here: [\ref-set\mnist\oracle\variation](\ref-set\mnist\oracle\variation) 
+The corresponding reference sets used for CID evaluation can be found here: [ref-set\mnist\oracle\variation](\ref-set\mnist\oracle\variation) 
 
 # Implementation
 
-The implementation of the test case generation and evaluation is available in the folder [\code](\code). The code can be used with the MNIST Case Study. For the AVP Case Study the SUT could not have been disclosed.
+The implementation of the test case generation and evaluation is available in the folder [\code](code). The code can be used with the MNIST Case Study. For the AVP Case Study the SUT could not have been disclosed.
+The case study has been implemented using the open-source search-based testing framework [OpenSBT](https:\\git.fortiss.org\opensbt).
 
 ## Preliminaries
 
-Create a virtual environment and install all requirements:
+Create a virtual environment and install all requirements by:
 
 `pip install -r requirements.txt`
+
+For troubleshooting related to MNIST dependencies we refer to the original implementation by Vincenzo et al. (DeepJanus):
 
 ## Test Case Generation
 
