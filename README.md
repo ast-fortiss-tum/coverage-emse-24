@@ -5,7 +5,7 @@ This repository holds the implementation and evaluation results of the study in 
 
 ## AVP
 
-The results of the AVP Case Study can be found here: [\results-avp](\results-avp)
+The results of the AVP Case Study can be found here: [\results-avp](results-avp)
 
 The corresponding reference sets used for CID evaluation can be found here: [\ref-set\avp](\ref-set\avp\oracle-variation) 
 ## MNIST
