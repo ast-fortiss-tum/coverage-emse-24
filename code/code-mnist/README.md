@@ -1,141 +1,85 @@
-# Search-based Test Case Generation
+# OpenSBT - A Modular Framework for Search-based Testing of Automated Driving Systems
+
+
 ## Intro
 
+OpenSBT provides a modular and extandable code base to facilitate search-based testing of automated driving systems. It provides interfaces to integrate search algorithms, fitness/criticality functions and simulation environments in a modular way. It allows to visualize testing results and analyse the critical behaviour of the tested system. 
 
-The tool implements search-based critical test case generation using [NSGA2](https://orbilu.uni.lu/bitstream/10993/28071/1/ASE16BenAbdessalem.pdf) and [NSGA2-DT](https://orbilu.uni.lu/bitstream/10993/33706/1/ICSE-Main-24.pdf).
+An introductory video of OpenSBT can be found here: https://youtu.be/6csl_UAOD_4?si=JOUtN2gOo8hTRTLf.
 
-NSGA2-DT is an algorithm, where additionally to the standard search approach using NSGA2 simulated scenario instances are classified using a criticality metric and clustered using decision tree classification. NSGA2 is applied in the following tree iteration to search in regions that are considered as more critical than a specified threshold.
 
-## Preliminaries
+## Overview
 
-The tool can be used together with the Prescan Simulator []() and the Carla Simulator[](). 
-Python (>= 3.7) needs to be installed to use the Prescan Simulator.
+<p align="center">
+<div style="text-align:center"><img src="doc/figures/OpenSBT_architecture.png" width="500">
+</p>
 
-Create first a virtual environment (install virtualenv with 'pip install virtualenv' if not present):
+OpenSBT builds upon [Pymoo](https://pymoo.org/) 0.6.0 and extends internal optimization related models, such as `Problem`, `Result`, to tailor heuristic search algorithms for testing ADS systems.
 
+## Installation
+
+OpenSBT requires Python to be installed and its compatibality has been tested with Python 3.8. OpenSBT can be run as a standalone application or can be imported as a library.
+
+Installation instructions are available in the following [jupyter notebook](/doc/jupyter/01_Installation.ipynb).
+
+## Usage
+
+You can find several tutorials as [jupyter notebooks](/doc/jupyter) which explain step-by-step of how to use OpenSBT. In these tutorials, we have integrated:
+
+-  A simplified SUT simulated in very simplistic simulator (linear motion planning, no GPU required) 
+-  A real-world FMI-based AEB agent developed in the [fortiss Mobility lab](https://www.fortiss.org/forschung/fortiss-labs/detail/mobility-lab) which is simulated in [CARLA](https://carla.org/) using the simulator adapter [CARLA Runner Extension](https://git.fortiss.org/opensbt/carla-runner).
+
+_Note: We have also implemented a [simulator adapter](https://git.fortiss.org/opensbt/prescan_runner) for testing Simulink-based SUTs in Prescan._
+
+
+## Output
+
+OpenSBT produces several result artefacts. All artefacts are written into the *results* folder in a folder named as the problem name. 
+OpenSBT generates the following outputs:
+
+
+| Type | Description | Example | 
+|:--------------|:-------------|:--------------|
+| Design Space Plot | Visualization of all evaluated test cases in the input space + of predicted critical regions using the decision tree algorithm, pairwise. Constraints of derived regions are stored in CSV file [bounds_regions.csv](doc/example/results/single/PedestrianCrossingStartWalk/NSGA2-F/ex1/classification/bounds_regions.csv) and the learned tree in [tree.pdf](doc/example/results/single/PedestrianCrossingStartWalk/NSGA2-F/ex1/classification/tree.pdf) | <img src="doc/example/results/single/PedestrianCrossingStartWalk/NSGA2-F/ex1/design_space/orientation_ego_orientation_ped.png" alt="Design Space Plot" width="400"/>  |
+| Scenario 2D Visualization | Visualization of traces of the ego vehicle and adversaries in a two-dimensional GIF animation | <img src="doc/example/results/single/PedestrianCrossingStartWalk/NSGA2-F/ex1/gif/0_trajectory.gif" alt="Scenario Visualization" width="300"/> |
+Objective Space Plot | Visualization of fitness values of evaluated test cases, pairwise.   | <img src="doc/example/results/single/PedestrianCrossingStartWalk/NSGA2-F/ex1/objective_space/Min Adapted Distance_Velocity At Min Adapted Distance.png" alt="Objective Space Plot" width="400"/> |
+| All Testcases |  CSV file of all test inputs of all evaluated testcases | [all_testcases.csv](doc/example/results/single/PedestrianCrossingStartWalk/NSGA2-F/ex1/all_testcases.csv) |
+| All Critical Testcases |  CSV file of all critical test inputs of all evaluated testcases | [all_critical_testcases.csv](doc/example/results/single/PedestrianCrossingStartWalk/NSGA2-F/ex1/all_critical_testcases.csv)|
+| Calculation Properties |  CSV file of all experiment configuration parameters (e.g. algorithm parameters, such as population size, number iterations; search space, fitness function etc..).  | [calculation_properties.csv](doc/example/results/single/PedestrianCrossingStartWalk/NSGA2-F/ex1/calculation_properties.csv) |
+| Evaluation Results |  CSV file containing performance values of the algorithm, e.g., number critical test cases found in relation to all evaluations, execution time.| [summary_results.csv](doc/example/results/single/PedestrianCrossingStartWalk/NSGA2-F/ex1/summary_results.csv)|
+
+
+
+## Application Use Cases
+
+OpenSBT has been already applied:
+
+- For a replication experiment to replicate the results of a surrogate assisted testing technique, s. [here](https://github.com/Leviathan321/reflection_study).
+- In an industrial case study to validate a systems behaviour for different operating scenarios, s. [here](https://drive.google.com/file/d/1lr5BZpLFaxotwNFju43WF1C9fUTNM-SS/view?usp=sharing) and here: [https://doi.org/10.1007/978-3-031-46002-9_15](https://doi.org/10.1007/978-3-031-46002-9_15)
+
+## Contribution
+
+If you like to contribute please contact one of the developers listed below or create a pull request. If you face any issue with OpenSBT feel free to create an issue or contact the developers.
+
+## Acknowledgements
+
+OpenSBT has been developed by [Lev Sorokin](mailto:sorokin@fortiss.org), [Tiziano Munaro](mailto:munaro@fortiss.org) and [Damir Safin](mailto:safin@fortiss.org) within the 
+[FOCETA Project](https://www.foceta-project.eu/tools/). Special thanks go to [Brian Hsuan-Cheng Liao](mailto:h.liao@eu.denso.com) and Adam Molin from [DENSO AUTOMOTIVE Deutschland GmbH](https://www.denso.com/de/de/about-us/company-information/dnde/) for their valuable feedback and evaluation of OpenSBT on the AVP Case Study in the Prescan simulator.
+
+## Reference
+
+If you use or extend OpenSBT please cite our framework. Here is an example BibTeX entry:
+
+```bibtex
+@misc{sorokin2023opensbt,
+      title={OpenSBT: A Modular Framework for Search-based Testing of Automated Driving Systems}, 
+      author={Lev Sorokin and Tiziano Munaro and Damir Safin and Brian Hsuan-Cheng Liao and Adam Molin},
+      year={2023},
+      eprint={2306.10296},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
 ```
-virtualenv --python C:\Path\To\Python\python.exe venv
-```
+## License
 
-Activate the virtual environment using:
-
-```
-source venv/Scripts/activate
-```
-
-Install dependencies in the virtual environment:
-
-```
-python -m pip install -r requirements.txt
-```
-
-### Preliminaries using Carla
-
-Follow the steps desribed  [s. here](/carla_simulation) to integrate Carla.
-
-### Preliminaries using Prescan
-
-To use Prescan matlab needs to be installed. 
-Compatibility has been tested with Prescan 2021.3.0 and MATLAB R2019.b.
-
-#### Matlab
-
-Matlab R2019.b can be downloaded from <file://///fs01/Install/Mathworks> (VPN to fortiss network/local LAN connection required). Further installation instruction is available here:  <https://one.fortiss.org/sites/workinghere/Wikipages/install%20some%20software.aspx>
-
-The matlab engine needs to be exported to python.
-Execute 
-
-```
-cd MATLAB_DIR/extern/engines/python
-py -3.7 setup.py install --prefix="C:\Path\To\Project\venv"
-
-```
-Further options [s. here](https://de.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html).
-
-**For automatic engine sharing**
-
-The matlab engine can be automatically shared, when Matlab is started via the Prescan Process Manager.
-MATLAB executes a script named  [`startup`](https://de.mathworks.com/help/matlab/ref/startup.html) that is added to the userpath (check location vie `userpath`). Add a script named `startup` to the experiment location and change the userpath to point to the startup script to enable automatic sharing.
-
-### Usage
-
-The tool can be used to generate test cases for scenarios in Prescan and Carla. We have also implement for testing the algorithm the search on test problems.
-The results are written in the *results* folder.
-
-### Search for multiobjective test examples (Experiment 4, Experiment 6)
-
-Run the following to execute search with a mathematical multobjective problem.
-
-```
-python run.py -e 4
-```
-
-### Search for a carla scenario (Experiment 2, Experiment 5)
-
-To run search with a scenario in carla we have implemented two examples  where a pedestrian crosses the lane of the ego. In one the environment is modified, and the other only the pedestrians speed and host speed is modified.
-To 
-```
-python run.py -e 2
-```
-
-
-### Search for a prescan scenario
-
-Start MATLAB using the Prescan Process Manager and share the engine by executing in the terminal:
-
-```
-matlab.engine.shareEngine
-```
-
-#### Real Example
-
-To run search with an example Prescan experiment
-make sure **PrescanHeedsExperiment** is downloaded in a folder **experiments** that is placed next to this.
-
-Run the following to execute search:
-
-```
-python run.py -e 3
-```
-
-#### New Experiment
-
-Make sure to have a file named **UpdateModel.m** in the experiments folder that reads from a json file **input.json** parameter values and sets the values in the experiment model.
-Consider as an example experiment **experiments/PrescanHeedsExperiment**
-
-Run the tool by providing the path to the experiment file, the upper and lower bounds, as well the names of the parameters to vary (should match with the ones set by **UpdateModel.m**):
-
-```
-python run.py -f <experiment.pb> -min 1 1 1 -max 10 20 10 -m "par1 "par2" "par3"
-```
-
-### Optional Parameters
-
-All flags that can be set are (get options by -h flag):
-
-```
-  -e EXP_NUMBER         Hardcoded example scenario to use [2 to 6].
-  -i N_ITERATIONS       Number iterations to perform.
-  -n SIZE_POPULATION    The size of the initial population of scenario candidates.
-  -a ALGORITHM          The algorithm to use for search, 1 for NSGA2, 2 for NSGA2-DT.
-  -t MAXIMAL_EXECUTION_TIME
-                        The time to use for search with nsga2-DT (actual search time can be above the threshold, since algorithm might        
-                        perform nsga2 iterations, when time limit is already reached.
-  -f XOSC               The path to the scenario description file/experiment.
-  -min VAR_MIN [VAR_MIN ...]
-                        The lower bound of each parameter.
-  -max VAR_MAX [VAR_MAX ...]
-                        The upper bound of each parameter.
-  -m DESIGN_NAMES [DESIGN_NAMES ...]
-                        The names of the variables to modify.
-  -dt MAX_TREE_ITERATIONS
-                        The maximum number of total decision tree generations (when using NSGA2-DT algoritm).
-```
-
-## Limitations
-
-Since OpenSCENARIO support of Prescan is not mature, Prescan experiment files have to be used.
-
-## Authors
-
-Lev Sorokin (sorokin@fortiss.org), Tiziano Munaro (tiziano@fortiss.org)
+OpenSBT is licensed under the [Apache License, Version 2.0](LICENSE).
