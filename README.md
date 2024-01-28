@@ -14,7 +14,7 @@ The corresponding reference sets used for CID evaluation can be found here: [ref
 
 The suffix of the files represents the restriction level of the oracle used. The corresponding 3D visualization of the reference sets is available here: [ref-set\avp\oracle-variation\os](ref-set\avp\oracle-variation\os)
 
-CID results related to different sampling approaches (sampling size and sampling method variation) for a fixed test oracle can be found here: [\sampling\variation](sampling-variation) \
+CID results related to different sampling approaches (sampling size and sampling method variation) for a fixed test oracle can be found here: [sampling\variation](sampling-variation\) \
 Eeach folder is labeled according to `<samplingmethod>_<resolution>`.
 
 
@@ -22,7 +22,7 @@ Eeach folder is labeled according to `<samplingmethod>_<resolution>`.
 
 The results of the AVP Case Study can be found here: [results-mnist](results-mnist)
 - The generated test case for each run for all used seed digits are available here: [results-mnist\runs](results-mnist\runs\)
-- Coverage results are given here: [results-mnist\cid](results-mnist\cid)
+- Coverage results are given here: [results-mnist\cid](results-mnist\cid\)
 
 The corresponding reference sets used for CID evaluation can be found here: [ref-set\mnist\oracle\variation](ref-set\mnist\oracle\variation) 
 
