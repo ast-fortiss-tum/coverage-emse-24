@@ -81,11 +81,11 @@ The oracle function(s) used need(s) to be specified inside the script in line 18
 the sampling resolution, update the variable [here](code/code-mnist/utils/sampling.py) in line 33. You can also provdide a reference set generated using a different sampling approach. The provided set should be compliant with the format given in the refence set file [here](TODO) and have to be place in the folder of a run.
 
 When the evaluation is finished, three files are generated:
-- `avg_combined`: This files holds the averaged CID and standard deviation results over all seed digits for the algorithms NSGA-II, NSGA-II-D and RS. An example can be found [here](TODO).
-- `cig_significance`: This file contains the statistical test results for the comparison RS/NSGA-II and RS/NSGA-II-D including the p-value and effect-size evaluation. An example can be found [here](TODO).
-- `overview_cid`: This file contains CID values after the final evaluation on average for each run. An example can be found [here](TODO).
+- `avg_combined`: This files holds the averaged CID and standard deviation results over all seed digits for the algorithms NSGA-II, NSGA-II-D and RS.
+- `cig_significance`: This file contains the statistical test results for the comparison RS/NSGA-II and RS/NSGA-II-D including the p-value and effect-size evaluation.
+- `overview_cid`: This file contains CID values after the final evaluation on average for each run.
 
-
+An example can be found [here](results-mnist/cid/crit_large/).
 # Authors
 
 
