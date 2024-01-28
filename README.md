@@ -89,5 +89,9 @@ An example can be found [here](results-mnist/cid/crit_large/).
 # Authors
 
 
-Lev Sorokin (sorokin@fortiss.org) \
+Lev Sorokin (sorokin@fortiss.org), \
 Damir Safin (safin@fortiss.org)
+
+Automated Software Testing \
+fortiss GmbH \
+Munich, Germany 
