@@ -5,44 +5,85 @@ This repository holds the implementation and evaluation results of the study in 
 
 ## AVP
 
-The results of the AVP Case Study can be found here: [\results-avp](results-avp)
+The results of the AVP Case Study can be found [here](results-avp). It contains:
 
-The corresponding reference sets used for CID evaluation can be found here: [\ref-set\avp](ref-set\avp\oracle-variation) 
+- The generated test case for each run: [results-avp\runs]("results-avp\runs\")
+- Coverage results using the CID metric: [results-avp\cid]("results-avp\cid")
+
+The corresponding reference sets used for CID evaluation can be found here: [ref-set\avp\oracle-variation](ref-set\avp\oracle-variation\) 
+
+The suffix of the files represents the restriction level of the oracle used. The corresponding 3D visualization of the reference sets is available here: [ref-set\avp\oracle-variation\os]("ref-set\avp\oracle-variation\os")
+
+CID results related to different sampling approaches (sampling size and sampling method variation) for a fixed test oracle can be found here: [\sampling\variation](sampling-variation) \
+Eeach folder is labeled according to `<samplingmethod>_<resolution>`.
+
+
 ## MNIST
 
-The results of the AVP Case Study can be found here: [\results-mnist](results-mnist)
+The results of the AVP Case Study can be found here: [results-mnist](results-mnist)
+- The generated test case for each run for all used seed digits are available here: [results-mnist\runs]("results-mnist\runs\")
+- Coverage results are given here: [results-mnist\cid]("results-mnist\cid")
 
 The corresponding reference sets used for CID evaluation can be found here: [ref-set\mnist\oracle\variation](ref-set\mnist\oracle\variation) 
 
 # Implementation
 
-The implementation of the test case generation and evaluation is available in the folder [\code](code). The code can be used with the MNIST Case Study. For the AVP Case Study the SUT could not have been disclosed.
-The case study has been implemented using the open-source search-based testing framework [OpenSBT](https://git.fortiss.org/opensbt).
+The implementation of the test case generation and evaluation for the MNIST Case Study is available in the folder [\code](code). For the AVP Case Study the SUT could not have been disclosed, as the system was provided by our industrial partner. Both case studies have been implemented using the open-source search-based testing framework [OpenSBT](https://git.fortiss.org/opensbt).
 
 ## Preliminaries
 
+Firs make sure that your system meets the requirements mentioned by OpenSBT (s. [here](https://git.fortiss.org/opensbt/opensbt-core)) and MNIST implementation by Vincenzo et al. (https://github.com/testingautomated-usi/DeepJanus):
+
 Create a virtual environment and install all requirements by:
 
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
-For troubleshooting related to MNIST dependencies we refer to the original implementation by Vincenzo et al. (DeepJanus):
+For troubleshooting related to MNIST dependencies we refer to the original implementation by Vincenzo et al. (https://github.com/testingautomated-usi/DeepJanus).
 
 ## Test Case Generation
 
 a) To start the generations of test cases for one single seed run:
 
-`python analysis.py -r -p "/path/to/the/folder/with/runs/"`
+```python
+python analysis.py -s <seed_number>
+```
 
-b) To start the generations of test cases for multipled seeds use the script `run_analysis_seeds.sh`. Modify the seed number in line X to use different seeds for the evaluation. All seed number that have the expected label 5 are given in X.
+b) To start the generations of test cases for **multiple seeds** use the script:
+
+```python
+run_analysis_seeds.sh
+```
+
+Modify the seed number in `line 7` to use different seeds for the evaluation. All seed digits from MNIST with their corresponding number that have the label 5 are given [here](code\code-mnist\problem\mnist\bootstrap\bootstrap_five.png). Results are written by default in the folder named `results\analysis\multiseed\`.
 
 
 ## Evaluation
 
 To start the evaluation:
 
-`python analysis.py -p "/path/to/the/folder/with/runs/"`
+```python
+python analysis.py -p "/path/to/the/folder/with/runs/"
+```
 
 The evaluation results will be written in the folder of the passed path of the runs.
+
+To get results with a different test oracle for already generated test inputs you need to execute:
+
+```python
+python -m scripts.generate_multiseed_variation
+```
+
+The oracle function(s) used need(s) to be specified inside the script in line 180. When the script execution is finished, for each test oracle a new folder will be created with the name
+`<original_folder_name>_<oracle_function_name>`. Seed results are read by default from the folder named `results\analysis\multiseed\`. By default, a reference set using grid sampling with 10 samples per dimension will be generated. To modify
+the sampling resolution, update the variable [here](code/code-mnist/utils/sampling.py) in line 33. You can also provdide a reference set generated using a different sampling approach. The provided set should be compliant with the format given in the refence set file [here](TODO) and have to be place in the folder of a run.
+
+When the evaluation is finished, three files are generated:
+- `avg_combined`: This files holds the averaged CID and standard deviation results over all seed digits for the algorithms NSGA-II, NSGA-II-D and RS. An example can be found [here](TODO).
+- `cig_significance`: This file contains the statistical test results for the comparison RS/NSGA-II and RS/NSGA-II-D including the p-value and effect-size evaluation. An example can be found [here](TODO).
+- `overview_cid`: This file contains CID values after the final evaluation on average for each run. An example can be found [here](TODO).
+
 
 # Authors
 

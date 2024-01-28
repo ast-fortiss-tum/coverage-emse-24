@@ -1,0 +1,16 @@
+deap
+numpy
+scipy
+matplotlib
+pandas
+setuptools
+scikit-learn
+pymoo
+dill
+psutil
+pympler
+mlxtend
+docker
+seaborn
+keras
+tensorflow
