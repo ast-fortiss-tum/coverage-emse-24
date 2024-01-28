@@ -10,7 +10,7 @@ The results of the AVP Case Study can be found [here](results-avp). It contains:
 - The generated test case for each run: [results-avp\runs](results-avp\runs\)
 - Coverage results using the CID metric: [results-avp\cid](results-avp\cid)
 
-The corresponding reference sets used for CID evaluation can be found here: [ref-set\avp\oracle-variation](ref-set\avp\oracle-variation\) 
+The corresponding reference sets used for CID evaluation can be found here: [ref-set\avp\oracle-variation]("ref-set\avp\oracle-variation\") 
 
 The suffix of the files represents the restriction level of the oracle used. The corresponding 3D visualization of the reference sets is available here: [ref-set\avp\oracle-variation\os](ref-set\avp\oracle-variation\os)
 
@@ -32,7 +32,7 @@ The implementation of the test case generation and evaluation for the MNIST Case
 
 ## Preliminaries
 
-Firs make sure that your system meets the requirements mentioned by OpenSBT (s. [here](https://git.fortiss.org/opensbt/opensbt-core)) and MNIST implementation by Vincenzo et al. (https://github.com/testingautomated-usi/DeepJanus):
+First make sure that your system meets the requirements mentioned by OpenSBT (s. [here](https://git.fortiss.org/opensbt/opensbt-core)) and MNIST implementation by Vincenzo et al. (https://github.com/testingautomated-usi/DeepJanus):
 
 Create a virtual environment and install all requirements by:
 
@@ -56,7 +56,7 @@ b) To start the generations of test cases for **multiple seeds** use the script:
 run_analysis_seeds.sh
 ```
 
-Modify the seed number in `line 7` to use different seeds for the evaluation. All seed digits from MNIST with their corresponding number that have the label 5 are given [here](code\code-mnist\problem\mnist\bootstrap\bootstrap_five.png). Results are written by default in the folder named `results\analysis\multiseed\`.
+Modify the seed numbers in `line 7` to use different seeds for the evaluation. All seed digits from MNIST with their corresponding number that have the label 5 are given [here](code\code-mnist\problem\mnist\bootstrap\bootstrap_five.png). Results are written by default in the folder named `results\analysis\multiseed\`.
 
 
 ## Evaluation
