@@ -7,24 +7,24 @@ This repository holds the implementation and evaluation results of the study in 
 
 The results of the AVP Case Study can be found [here](results-avp). It contains:
 
-- The generated test case for each run: [results-avp\runs](results-avp\runs\)
-- Coverage results using the CID metric: [results-avp\cid](results-avp\cid)
+- The generated test case for each run: [results-avp\runs](results-avp/runs/)
+- Coverage results using the CID metric: [results-avp\cid](results-avp/cid)
 
-The corresponding reference sets used for CID evaluation can be found here: [ref-set\avp\oracle-variation]("ref-set\avp\oracle-variation\") 
+The corresponding reference sets used for CID evaluation can be found here: [ref-set\avp\oracle-variation]("ref-set/avp/oracle-variation/") 
 
-The suffix of the files represents the restriction level of the oracle used. The corresponding 3D visualization of the reference sets is available here: [ref-set\avp\oracle-variation\os](ref-set\avp\oracle-variation\os)
+The suffix of the files represents the restriction level of the oracle used. The corresponding 3D visualization of the reference sets is available here: [ref-set\avp\oracle-variation\os](ref-set/avp/oracle-variation/os)
 
-CID results related to different sampling approaches (sampling size and sampling method variation) for a fixed test oracle can be found here: [sampling\variation](sampling-variation\) \
+CID results related to different sampling approaches (sampling size and sampling method variation) for a fixed test oracle can be found here: [sampling\variation](sampling-variation/) \
 Eeach folder is labeled according to `<samplingmethod>_<resolution>`.
 
 
 ## MNIST
 
 The results of the AVP Case Study can be found here: [results-mnist](results-mnist)
-- The generated test case for each run for all used seed digits are available here: [results-mnist\runs](results-mnist\runs\)
-- Coverage results are given here: [results-mnist\cid](results-mnist\cid\)
+- The generated test case for each run for all used seed digits are available here: [results-mnist\runs](results-mnist/runs/)
+- Coverage results are given here: [results-mnist\cid](results-mnist/cid/)
 
-The corresponding reference sets used for CID evaluation can be found here: [ref-set\mnist\oracle\variation](ref-set\mnist\oracle\variation) 
+The corresponding reference sets used for CID evaluation can be found here: [ref-set\mnist\oracle\variation](ref-set/mnist/oracle/variation) 
 
 # Implementation
 
@@ -56,7 +56,7 @@ b) To start the generations of test cases for **multiple seeds** use the script:
 run_analysis_seeds.sh
 ```
 
-Modify the seed numbers in `line 7` to use different seeds for the evaluation. All seed digits from MNIST with their corresponding number that have the label 5 are given [here](code\code-mnist\problem\mnist\bootstrap\bootstrap_five.png). Results are written by default in the folder named `results\analysis\multiseed\`.
+Modify the seed numbers in `line 7` to use different seeds for the evaluation. All seed digits from MNIST with their corresponding number that have the label 5 are given [here](code\code-mnist\problem\mnist\bootstrap\bootstrap_five.png). Results are written by default in the folder named `results/analysis/multiseed/`.
 
 
 ## Evaluation
@@ -75,7 +75,8 @@ To get results with a different test oracle for already generated test inputs yo
 python -m scripts.generate_multiseed_variation
 ```
 
-The oracle function(s) used need(s) to be specified inside the script in line 180. When the script execution is finished, for each test oracle a new folder will be created with the name
+
+The oracle function(s) used need(s) to be specified inside the script in line 180. To create a customized oracle function you can use the Criticality class/interface from OpenSBT. When the script execution is finished, for each test oracle a new folder will be created with the name
 `<original_folder_name>_<oracle_function_name>`. Seed results are read by default from the folder named `results\analysis\multiseed\`. By default, a reference set using grid sampling with 10 samples per dimension will be generated. To modify
 the sampling resolution, update the variable [here](code/code-mnist/utils/sampling.py) in line 33. You can also provdide a reference set generated using a different sampling approach. The provided set should be compliant with the format given in the refence set file [here](TODO) and have to be place in the folder of a run.
 
