@@ -1,0 +1,16 @@
+Attribute,Value
+Number Critical Scenarios,177
+Number Critical Scenarios (duplicate free),73
+Number All Scenarios,1000
+Number All Scenarios (duplicate free),254
+Number Best Critical Scenarios,77
+Number Best Critical Scenarios (duplicate free),23
+Number Best Scenarios,538
+Number Best Scenarios (duplicate free),73
+Ratio Critical/All scenarios,0.18
+Ratio Critical/All scenarios (duplicate free),0.29
+Ratio Best Critical/Best Scenarios,0.14
+Ratio Best Critical/Best Scenarios (duplicate free),0.32
+Iteration first critical found,1
+Fitness value of critical (first of population of interest),[-0.999647  0.780093  0.      ]
+Input value of critical (first of population of interest),[-0.667401 -5.582637  1.816241]

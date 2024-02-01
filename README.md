@@ -23,10 +23,13 @@ Eeach folder is labeled according to `<samplingmethod>_<resolution>`.
 ## MNIST
 
 The results of the AVP Case Study can be found here: [results-mnist](results-mnist)
-- The generated test case for each run for all used seed digits are available here: [results-mnist\runs](results-mnist/runs/)
-- Coverage results are given here: [results-mnist\cid](results-mnist/cid/)
+- The generated test case for each run for all used seed digits  are available here: [results-mnist\runs](results-mnist/runs/)
+- Coverage results for on average 20 seeds are given here: [results-mnist\cid](results-mnist/cid/). Coverage results for each individual seed for the selected oracle `<oracle>` given can be found in the folder named `results-mnist/runs/multiseed_<oracle>`. Statistical test results are located in the file named `cid_significance.csv`.
 
-The corresponding reference sets used for CID evaluation can be found here: [ref-set\mnist\oracle\variation](ref-set/mnist/oracle/variation) 
+This folder contains for each seed a folder with the results of 10 runs for the algorithms RS, NSGA-II and NSGA-II-D. For instance, generated test cases for the seed digit 102 can be found here: [results-mnist\runs\multiseed_CriticalMNISTConf_05\MNIST_3D_RS_D102](results-mnist/runs/multiseed_CriticalMNISTConf_05/MNIST_3D_RS_D102). The coverage results for digit 102 are available in the folder named `comparison_['RS', 'NSGA-II-D', 'NSGA-II']`.
+
+The corresponding reference set for CID evaluation is located in the folder named `ref_set` inside the results folder. All seed digits from MNIST with their corresponding number that have the label 5 are given [here](code\code-mnist\problem\mnist\bootstrap\bootstrap_five.png).
+
 
 # Implementation
 

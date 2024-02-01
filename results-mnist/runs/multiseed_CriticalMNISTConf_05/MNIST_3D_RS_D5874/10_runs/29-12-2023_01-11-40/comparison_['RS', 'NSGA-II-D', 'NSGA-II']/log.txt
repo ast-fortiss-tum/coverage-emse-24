@@ -1,0 +1,116 @@
+2023-12-29 23:30:52,250 INFO     Logging setup. Writing to file:  results/analysis/multiseed/MNIST_3D_RS_D5874/10_runs/29-12-2023_01-11-40//comparison_['RS', 'NSGA-II-D', 'NSGA-II']//log.txt
+2023-12-29 23:30:52,250 INFO     Analysed algorithms: ['RS', 'NSGA-II-D', 'NSGA-II'] 
+
+2023-12-29 23:30:52,250 INFO     folder_runs is: ['results/analysis/multiseed/MNIST_3D_RS_D5874/10_runs/29-12-2023_01-11-40//', 'results/analysis/multiseed/MNIST_3D_RS_D5874/10_runs/29-12-2023_01-11-40//', 'results/analysis/multiseed/MNIST_3D_RS_D5874/10_runs/29-12-2023_01-11-40//']
+2023-12-29 23:30:52,250 INFO     Evaluating runs...
+2023-12-29 23:30:52,250 INFO     output folder is: results/analysis/multiseed/MNIST_3D_RS_D5874/10_runs/29-12-2023_01-11-40//comparison_['RS', 'NSGA-II-D', 'NSGA-II']/
+2023-12-29 23:30:52,250 INFO     ############# Analysis #############
+2023-12-29 23:30:52,253 INFO     ---- Generating approximated critical solutions set. ----
+
+2023-12-29 23:31:34,119 INFO     Individual evaluated and mutated digit created.
+2023-12-29 23:31:34,125 INFO     ---- Writing approximated critical solutions set. ----
+
+2023-12-29 23:31:34,125 INFO     Writing to file: results/analysis/multiseed/MNIST_3D_RS_D5874/10_runs/29-12-2023_01-11-40//comparison_['RS', 'NSGA-II-D', 'NSGA-II']//ref_set/critical_testcases_x.csv
+2023-12-29 23:31:35,086 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:35,305 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:35,341 INFO     Final CID value: 0.12465049508666647
+2023-12-29 23:31:35,342 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:35,561 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:35,596 INFO     Final CID value: 0.13798274189407359
+2023-12-29 23:31:35,597 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:35,817 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:35,925 INFO     Final CID value: 0.1384531740683224
+2023-12-29 23:31:35,925 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:36,145 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:36,180 INFO     Final CID value: 0.1344955061902708
+2023-12-29 23:31:36,181 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:36,403 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:36,438 INFO     Final CID value: 0.13696271958256404
+2023-12-29 23:31:36,439 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:36,659 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:36,695 INFO     Final CID value: 0.13599581492517235
+2023-12-29 23:31:36,696 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:36,922 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:36,958 INFO     Final CID value: 0.14308594623745113
+2023-12-29 23:31:36,959 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:37,186 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:37,220 INFO     Final CID value: 0.13373234101511913
+2023-12-29 23:31:37,221 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:37,444 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:37,478 INFO     Final CID value: 0.13744324070225905
+2023-12-29 23:31:37,479 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:37,706 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:37,742 INFO     Final CID value: 0.13486945067815231
+2023-12-29 23:31:37,743 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:38,044 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:38,138 INFO     Final CID value: 0.3725156810006796
+2023-12-29 23:31:38,139 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:38,431 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:38,503 INFO     Final CID value: 0.21196956517020646
+2023-12-29 23:31:38,504 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:38,786 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:38,853 INFO     Final CID value: 0.27434700227026215
+2023-12-29 23:31:38,855 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:39,132 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:39,201 INFO     Final CID value: 0.19494095558610272
+2023-12-29 23:31:39,202 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:39,533 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:39,613 INFO     Final CID value: 0.19492091836263106
+2023-12-29 23:31:39,614 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:39,902 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:39,983 INFO     Final CID value: 0.19710185708996802
+2023-12-29 23:31:39,984 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:40,278 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:40,357 INFO     Final CID value: 0.3212721861239274
+2023-12-29 23:31:40,358 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:40,628 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:40,702 INFO     Final CID value: 0.1904323355374173
+2023-12-29 23:31:40,703 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:40,975 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:41,062 INFO     Final CID value: 0.21201719669888103
+2023-12-29 23:31:41,064 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:41,350 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:41,417 INFO     Final CID value: 0.41584584401707736
+2023-12-29 23:31:41,419 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:41,647 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:41,764 INFO     Final CID value: 0.2844390427444746
+2023-12-29 23:31:41,766 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:42,000 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:42,096 INFO     Final CID value: 0.33189289410482176
+2023-12-29 23:31:42,097 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:42,336 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:42,429 INFO     Final CID value: 0.33074110725289846
+2023-12-29 23:31:42,430 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:42,704 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:42,792 INFO     Final CID value: 0.2717396212221801
+2023-12-29 23:31:42,793 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:43,019 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:43,110 INFO     Final CID value: 0.25718521050356413
+2023-12-29 23:31:43,112 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:43,332 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:43,416 INFO     Final CID value: 0.32465441632961495
+2023-12-29 23:31:43,417 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:43,647 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:43,747 INFO     Final CID value: 0.31313392581063987
+2023-12-29 23:31:43,748 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:43,983 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:44,081 INFO     Final CID value: 0.29776616077912466
+2023-12-29 23:31:44,083 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:44,314 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:44,415 INFO     Final CID value: 0.2978739428604986
+2023-12-29 23:31:44,416 INFO     [Analysis] Creating result object from generations...
+2023-12-29 23:31:44,642 INFO     ------ Performing cid analysis ------
+2023-12-29 23:31:44,740 INFO     Final CID value: 0.3027368734578723
+2023-12-29 23:31:44,985 INFO     ['RS', 'NSGA-II-D', 'NSGA-II']
+2023-12-29 23:31:44,985 INFO     test: [0.12465049508666648, 0.1379827418940736, 0.1384531740683224, 0.1344955061902708, 0.13696271958256406, 0.13599581492517235, 0.14308594623745113, 0.13373234101511913, 0.13744324070225905, 0.13486945067815231]
+2023-12-29 23:31:44,985 INFO     base: [0.3725156810006796, 0.2119695651702065, 0.2743470022702621, 0.19494095558610272, 0.19492091836263106, 0.197101857089968, 0.3212721861239274, 0.1904323355374173, 0.21201719669888106, 0.41584584401707736]
+2023-12-29 23:31:44,985 INFO     P-Value is: 0.001953125
+2023-12-29 23:31:44,985 INFO     Delaney's effect size is: (0.0, 'large')
+2023-12-29 23:31:44,985 INFO     test: [0.12465049508666648, 0.1379827418940736, 0.1384531740683224, 0.1344955061902708, 0.13696271958256406, 0.13599581492517235, 0.14308594623745113, 0.13373234101511913, 0.13744324070225905, 0.13486945067815231]
+2023-12-29 23:31:44,985 INFO     base: [0.2844390427444746, 0.33189289410482176, 0.3307411072528985, 0.2717396212221801, 0.2571852105035641, 0.3246544163296149, 0.3131339258106399, 0.29776616077912466, 0.2978739428604986, 0.3027368734578723]
+2023-12-29 23:31:44,986 INFO     P-Value is: 0.001953125
+2023-12-29 23:31:44,986 INFO     Delaney's effect size is: (0.0, 'large')
+2023-12-29 23:31:44,986 INFO     {'NSGA-II-D': [0.3725156810006796, 0.2119695651702065, 0.2743470022702621, 0.19494095558610272, 0.19492091836263106, 0.197101857089968, 0.3212721861239274, 0.1904323355374173, 0.21201719669888106, 0.41584584401707736], 'NSGA-II': [0.2844390427444746, 0.33189289410482176, 0.3307411072528985, 0.2717396212221801, 0.2571852105035641, 0.3246544163296149, 0.3131339258106399, 0.29776616077912466, 0.2978739428604986, 0.3027368734578723]}
+2023-12-29 23:31:44,986 INFO     ---- Analysis plots generated. ----
+2023-12-29 23:31:44,986 INFO     ---- Analysis summary written to file.
+2023-12-29 23:31:44,986 INFO     Results written in: results/analysis/multiseed/MNIST_3D_RS_D5874/10_runs/29-12-2023_01-11-40//comparison_['RS', 'NSGA-II-D', 'NSGA-II']/

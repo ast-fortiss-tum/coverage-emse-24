@@ -1,0 +1,894 @@
+2023-12-25 22:40:59,794 INFO     Logging setup. Writing to file:  /home/lev/Projects/testing/SBT-research-MNIST/results/analysis/multiseed/MNIST_3D_RS_D102/10_runs/25-12-2023_22-40-59/./log.txt
+2023-12-25 22:40:59,794 INFO     Search config 0: {'population_size': 1000} 
+
+2023-12-25 22:40:59,794 INFO     Search config 1: {'population_size': 20, 'n_generations': 50} 
+
+2023-12-25 22:40:59,794 INFO     Search config 2: {'population_size': 20, 'n_generations': 50} 
+
+2023-12-25 22:40:59,794 INFO     ------ Running run 1 from 10 with RS ------ 
+
+2023-12-25 22:40:59,794 INFO     Initialized algorithm with config: {'population_size': 1000}
+2023-12-25 22:41:42,852 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:41:42,954 INFO     ----- Storing result object ------
+2023-12-25 22:41:42,954 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:41:43,157 INFO     ----- Storing problem object ------
+2023-12-25 22:41:47,126 INFO     ---- Evaluating run 1 from 10 with RS completed ----
+
+2023-12-25 22:41:47,221 INFO     ------ Running run 2 from 10 with RS ------ 
+
+2023-12-25 22:41:47,223 INFO     Initialized algorithm with config: {'population_size': 1000}
+2023-12-25 22:42:30,598 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:42:30,677 INFO     ----- Storing result object ------
+2023-12-25 22:42:30,677 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:42:30,880 INFO     ----- Storing problem object ------
+2023-12-25 22:42:34,726 INFO     ---- Evaluating run 2 from 10 with RS completed ----
+
+2023-12-25 22:42:34,774 INFO     ------ Running run 3 from 10 with RS ------ 
+
+2023-12-25 22:42:34,775 INFO     Initialized algorithm with config: {'population_size': 1000}
+2023-12-25 22:43:18,255 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:43:18,333 INFO     ----- Storing result object ------
+2023-12-25 22:43:18,333 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:43:18,535 INFO     ----- Storing problem object ------
+2023-12-25 22:43:22,422 INFO     ---- Evaluating run 3 from 10 with RS completed ----
+
+2023-12-25 22:43:22,470 INFO     ------ Running run 4 from 10 with RS ------ 
+
+2023-12-25 22:43:22,472 INFO     Initialized algorithm with config: {'population_size': 1000}
+2023-12-25 22:44:05,968 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:44:06,048 INFO     ----- Storing result object ------
+2023-12-25 22:44:06,048 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:44:06,250 INFO     ----- Storing problem object ------
+2023-12-25 22:44:09,794 INFO     ---- Evaluating run 4 from 10 with RS completed ----
+
+2023-12-25 22:44:09,877 INFO     ------ Running run 5 from 10 with RS ------ 
+
+2023-12-25 22:44:09,879 INFO     Initialized algorithm with config: {'population_size': 1000}
+2023-12-25 22:44:53,348 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:44:53,428 INFO     ----- Storing result object ------
+2023-12-25 22:44:53,429 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:44:53,628 INFO     ----- Storing problem object ------
+2023-12-25 22:44:57,522 INFO     ---- Evaluating run 5 from 10 with RS completed ----
+
+2023-12-25 22:44:57,573 INFO     ------ Running run 6 from 10 with RS ------ 
+
+2023-12-25 22:44:57,574 INFO     Initialized algorithm with config: {'population_size': 1000}
+2023-12-25 22:45:40,959 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:45:41,034 INFO     ----- Storing result object ------
+2023-12-25 22:45:41,034 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:45:41,235 INFO     ----- Storing problem object ------
+2023-12-25 22:45:45,231 INFO     ---- Evaluating run 6 from 10 with RS completed ----
+
+2023-12-25 22:45:45,330 INFO     ------ Running run 7 from 10 with RS ------ 
+
+2023-12-25 22:45:45,332 INFO     Initialized algorithm with config: {'population_size': 1000}
+2023-12-25 22:46:28,453 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:46:28,537 INFO     ----- Storing result object ------
+2023-12-25 22:46:28,537 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:46:28,743 INFO     ----- Storing problem object ------
+2023-12-25 22:46:32,332 INFO     ---- Evaluating run 7 from 10 with RS completed ----
+
+2023-12-25 22:46:32,415 INFO     ------ Running run 8 from 10 with RS ------ 
+
+2023-12-25 22:46:32,417 INFO     Initialized algorithm with config: {'population_size': 1000}
+2023-12-25 22:47:15,525 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:47:15,603 INFO     ----- Storing result object ------
+2023-12-25 22:47:15,603 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:47:15,804 INFO     ----- Storing problem object ------
+2023-12-25 22:47:19,695 INFO     ---- Evaluating run 8 from 10 with RS completed ----
+
+2023-12-25 22:47:19,744 INFO     ------ Running run 9 from 10 with RS ------ 
+
+2023-12-25 22:47:19,746 INFO     Initialized algorithm with config: {'population_size': 1000}
+2023-12-25 22:48:02,755 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:48:02,834 INFO     ----- Storing result object ------
+2023-12-25 22:48:02,834 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:48:03,034 INFO     ----- Storing problem object ------
+2023-12-25 22:48:06,593 INFO     ---- Evaluating run 9 from 10 with RS completed ----
+
+2023-12-25 22:48:06,678 INFO     ------ Running run 10 from 10 with RS ------ 
+
+2023-12-25 22:48:06,679 INFO     Initialized algorithm with config: {'population_size': 1000}
+2023-12-25 22:48:49,708 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:48:49,785 INFO     ----- Storing result object ------
+2023-12-25 22:48:49,785 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:48:49,982 INFO     ----- Storing problem object ------
+2023-12-25 22:48:53,903 INFO     ---- Evaluating run 10 from 10 with RS completed ----
+
+2023-12-25 22:48:53,954 INFO     ------ Running run 1 from 10 with NSGA-II-D ------ 
+
+2023-12-25 22:48:53,964 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 22:48:54,978 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:48:57,088 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:48:59,234 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:01,401 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:03,541 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:05,701 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:08,012 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:10,166 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:12,327 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:14,557 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:16,755 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:19,097 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:21,287 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:23,489 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:25,704 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:27,892 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:30,260 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:32,489 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:34,726 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:36,965 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:39,192 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:41,591 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:43,852 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:46,165 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:48,439 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:50,701 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:53,138 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:55,439 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:49:57,764 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:00,043 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:02,337 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:04,808 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:07,132 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:09,467 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:11,785 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:14,095 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:16,621 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:18,973 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:21,341 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:23,716 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:26,082 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:28,633 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:31,021 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:33,407 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:35,836 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:38,238 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:40,857 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:43,253 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:45,638 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:48,044 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:50:48,082 INFO     ----- Storing result object ------
+2023-12-25 22:50:48,082 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:50:56,221 INFO     ----- Storing problem object ------
+2023-12-25 22:51:00,721 INFO     ---- Evaluating run 1 from 10 with NSGA-II-D completed ----
+
+2023-12-25 22:51:00,849 INFO     ------ Running run 2 from 10 with NSGA-II-D ------ 
+
+2023-12-25 22:51:00,850 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 22:51:02,041 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:04,267 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:06,422 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:08,569 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:10,736 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:12,868 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:15,209 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:17,393 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:19,594 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:21,767 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:23,960 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:26,313 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:28,523 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:30,716 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:32,908 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:35,137 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:37,485 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:39,712 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:41,927 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:44,197 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:46,443 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:48,832 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:51,100 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:53,359 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:55,647 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:51:57,926 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:00,357 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:02,649 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:04,949 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:07,224 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:09,534 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:12,011 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:14,361 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:16,670 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:19,011 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:21,356 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:23,879 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:26,241 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:28,597 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:30,973 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:33,325 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:35,923 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:38,292 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:40,684 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:43,072 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:45,435 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:48,071 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:50,483 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:52,919 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:55,351 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:52:55,389 INFO     ----- Storing result object ------
+2023-12-25 22:52:55,389 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:53:03,573 INFO     ----- Storing problem object ------
+2023-12-25 22:53:07,428 INFO     ---- Evaluating run 2 from 10 with NSGA-II-D completed ----
+
+2023-12-25 22:53:07,553 INFO     ------ Running run 3 from 10 with NSGA-II-D ------ 
+
+2023-12-25 22:53:07,555 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 22:53:08,741 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:10,967 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:13,120 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:15,260 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:17,412 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:19,552 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:21,869 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:24,037 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:26,202 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:28,402 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:30,598 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:32,951 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:35,155 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:37,363 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:39,555 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:41,781 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:44,142 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:46,360 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:48,577 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:50,814 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:53,067 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:55,463 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:53:57,736 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:00,008 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:02,259 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:04,523 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:06,947 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:09,238 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:11,524 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:13,812 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:16,099 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:18,577 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:20,894 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:23,190 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:25,515 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:27,862 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:30,379 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:32,720 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:35,073 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:37,412 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:39,772 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:42,356 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:44,733 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:47,107 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:49,496 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:51,888 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:54,496 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:56,928 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:54:59,336 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:01,746 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:01,785 INFO     ----- Storing result object ------
+2023-12-25 22:55:01,785 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:55:10,136 INFO     ----- Storing problem object ------
+2023-12-25 22:55:14,821 INFO     ---- Evaluating run 3 from 10 with NSGA-II-D completed ----
+
+2023-12-25 22:55:14,954 INFO     ------ Running run 4 from 10 with NSGA-II-D ------ 
+
+2023-12-25 22:55:14,955 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 22:55:16,141 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:18,349 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:20,502 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:22,640 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:24,792 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:26,964 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:29,291 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:31,451 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:33,625 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:35,799 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:37,993 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:40,342 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:42,510 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:44,699 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:46,895 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:49,111 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:51,468 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:53,708 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:55,934 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:55:58,157 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:00,390 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:02,805 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:05,042 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:07,295 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:09,546 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:11,798 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:14,240 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:16,530 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:18,822 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:21,113 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:23,443 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:25,970 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:28,281 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:30,603 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:32,920 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:35,225 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:37,757 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:40,102 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:42,446 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:44,794 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:47,144 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:49,724 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:52,091 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:54,462 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:56,838 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:56:59,217 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:01,843 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:04,241 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:06,643 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:09,073 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:09,112 INFO     ----- Storing result object ------
+2023-12-25 22:57:09,112 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:57:17,296 INFO     ----- Storing problem object ------
+2023-12-25 22:57:21,357 INFO     ---- Evaluating run 4 from 10 with NSGA-II-D completed ----
+
+2023-12-25 22:57:21,486 INFO     ------ Running run 5 from 10 with NSGA-II-D ------ 
+
+2023-12-25 22:57:21,488 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 22:57:22,619 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:24,826 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:26,989 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:29,153 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:31,320 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:33,509 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:35,841 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:38,000 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:40,182 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:42,358 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:44,560 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:46,909 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:49,107 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:51,347 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:53,528 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:55,723 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:57:58,100 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:00,331 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:02,576 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:04,839 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:07,066 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:09,506 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:11,788 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:14,057 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:16,314 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:18,563 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:21,047 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:23,322 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:25,598 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:27,889 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:30,188 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:32,682 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:35,001 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:37,321 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:39,650 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:41,990 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:44,551 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:46,912 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:49,274 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:51,644 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:54,004 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:56,566 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:58:58,963 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:01,341 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:03,749 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:06,143 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:08,787 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:11,220 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:13,639 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:16,047 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:16,086 INFO     ----- Storing result object ------
+2023-12-25 22:59:16,086 INFO     -----Result object has size: 0.048 kB
+2023-12-25 22:59:24,422 INFO     ----- Storing problem object ------
+2023-12-25 22:59:28,665 INFO     ---- Evaluating run 5 from 10 with NSGA-II-D completed ----
+
+2023-12-25 22:59:28,794 INFO     ------ Running run 6 from 10 with NSGA-II-D ------ 
+
+2023-12-25 22:59:28,795 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 22:59:29,954 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:32,173 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:34,341 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:36,505 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:38,663 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:40,850 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:43,201 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:45,389 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:47,566 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:49,744 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:51,925 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:54,294 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:56,487 INFO     Individual evaluated and mutated digit created.
+2023-12-25 22:59:58,706 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:00,906 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:03,113 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:05,478 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:07,710 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:09,974 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:12,221 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:14,485 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:16,892 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:19,127 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:21,384 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:23,643 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:25,947 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:28,411 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:30,702 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:33,010 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:35,298 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:37,597 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:40,079 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:42,408 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:44,743 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:47,070 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:49,410 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:51,966 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:54,321 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:56,694 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:00:59,057 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:01,436 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:04,043 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:06,440 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:08,807 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:11,178 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:13,566 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:16,201 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:18,606 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:21,006 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:23,443 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:23,482 INFO     ----- Storing result object ------
+2023-12-25 23:01:23,482 INFO     -----Result object has size: 0.048 kB
+2023-12-25 23:01:31,733 INFO     ----- Storing problem object ------
+2023-12-25 23:01:35,729 INFO     ---- Evaluating run 6 from 10 with NSGA-II-D completed ----
+
+2023-12-25 23:01:35,856 INFO     ------ Running run 7 from 10 with NSGA-II-D ------ 
+
+2023-12-25 23:01:35,858 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 23:01:37,009 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:39,232 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:41,387 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:43,528 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:45,713 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:47,876 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:50,206 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:52,361 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:54,530 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:56,714 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:01:58,901 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:01,249 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:03,464 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:05,695 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:07,913 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:10,141 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:12,525 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:14,764 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:16,997 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:19,244 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:21,473 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:23,903 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:26,157 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:28,422 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:30,681 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:32,936 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:35,424 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:37,749 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:40,178 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:42,488 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:44,787 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:47,295 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:49,613 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:51,964 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:54,276 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:56,607 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:02:59,128 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:01,464 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:03,841 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:06,211 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:08,580 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:11,168 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:13,553 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:15,936 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:18,335 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:20,717 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:23,350 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:25,768 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:28,218 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:30,629 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:30,668 INFO     ----- Storing result object ------
+2023-12-25 23:03:30,668 INFO     -----Result object has size: 0.048 kB
+2023-12-25 23:03:38,877 INFO     ----- Storing problem object ------
+2023-12-25 23:03:42,773 INFO     ---- Evaluating run 7 from 10 with NSGA-II-D completed ----
+
+2023-12-25 23:03:42,900 INFO     ------ Running run 8 from 10 with NSGA-II-D ------ 
+
+2023-12-25 23:03:42,901 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 23:03:44,029 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:46,268 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:48,455 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:50,627 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:52,805 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:54,946 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:57,264 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:03:59,419 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:01,596 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:03,821 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:05,991 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:08,340 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:10,557 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:12,747 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:14,959 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:17,184 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:19,566 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:21,811 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:24,053 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:26,306 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:28,549 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:30,979 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:33,240 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:35,509 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:37,788 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:40,077 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:42,527 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:44,825 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:47,118 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:49,419 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:51,763 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:54,311 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:56,635 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:04:58,962 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:01,286 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:03,599 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:06,153 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:08,511 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:10,854 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:13,257 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:15,640 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:18,186 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:20,559 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:22,926 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:25,321 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:27,722 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:30,331 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:32,735 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:35,170 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:37,587 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:37,626 INFO     ----- Storing result object ------
+2023-12-25 23:05:37,626 INFO     -----Result object has size: 0.048 kB
+2023-12-25 23:05:45,893 INFO     ----- Storing problem object ------
+2023-12-25 23:05:49,840 INFO     ---- Evaluating run 8 from 10 with NSGA-II-D completed ----
+
+2023-12-25 23:05:49,963 INFO     ------ Running run 9 from 10 with NSGA-II-D ------ 
+
+2023-12-25 23:05:49,964 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 23:05:51,141 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:53,364 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:55,523 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:57,698 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:05:59,846 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:02,022 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:04,362 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:06,550 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:08,732 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:10,914 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:13,100 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:15,461 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:17,676 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:19,886 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:22,098 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:24,303 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:26,667 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:28,924 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:31,144 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:33,390 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:35,619 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:38,048 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:40,324 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:42,602 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:44,929 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:47,194 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:49,664 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:51,965 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:54,258 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:56,558 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:06:58,878 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:01,381 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:03,691 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:06,000 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:08,348 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:10,689 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:13,231 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:15,611 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:17,967 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:20,308 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:22,676 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:25,273 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:27,675 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:30,061 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:32,449 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:34,842 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:37,478 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:39,907 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:42,324 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:44,732 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:07:44,771 INFO     ----- Storing result object ------
+2023-12-25 23:07:44,771 INFO     -----Result object has size: 0.048 kB
+2023-12-25 23:07:52,976 INFO     ----- Storing problem object ------
+2023-12-25 23:07:58,294 INFO     ---- Evaluating run 9 from 10 with NSGA-II-D completed ----
+
+2023-12-25 23:07:58,383 INFO     ------ Running run 10 from 10 with NSGA-II-D ------ 
+
+2023-12-25 23:07:58,385 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 23:07:59,617 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:01,862 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:04,042 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:06,233 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:08,417 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:10,570 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:12,906 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:15,085 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:17,289 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:19,489 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:21,673 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:24,024 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:26,250 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:28,452 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:30,659 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:32,892 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:35,250 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:37,513 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:39,752 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:41,988 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:44,227 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:46,632 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:48,916 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:51,193 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:53,460 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:55,739 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:08:58,183 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:00,476 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:02,780 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:05,079 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:07,372 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:09,893 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:12,246 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:14,552 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:16,897 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:19,238 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:21,760 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:24,138 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:26,486 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:28,871 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:31,254 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:33,851 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:36,239 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:38,613 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:41,001 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:43,394 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:46,049 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:48,481 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:50,899 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:53,335 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:09:53,374 INFO     ----- Storing result object ------
+2023-12-25 23:09:53,374 INFO     -----Result object has size: 0.048 kB
+2023-12-25 23:10:01,656 INFO     ----- Storing problem object ------
+2023-12-25 23:10:05,698 INFO     ---- Evaluating run 10 from 10 with NSGA-II-D completed ----
+
+2023-12-25 23:10:05,829 INFO     ------ Running run 1 from 10 with NSGA-II ------ 
+
+2023-12-25 23:10:05,830 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 23:10:06,976 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:09,197 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:11,424 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:13,574 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:15,734 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:17,911 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:20,264 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:22,459 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:24,640 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:26,807 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:29,003 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:31,372 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:33,589 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:35,818 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:38,013 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:40,233 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:42,609 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:44,873 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:47,102 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:49,342 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:51,568 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:53,976 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:56,273 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:10:58,536 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:00,800 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:03,087 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:05,562 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:07,861 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:10,155 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:12,460 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:14,810 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:17,307 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:19,650 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:21,992 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:24,330 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:26,659 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:29,201 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:31,597 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:33,973 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:36,342 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:38,695 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:41,296 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:43,679 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:46,079 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:48,492 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:50,884 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:53,504 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:55,930 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:11:58,346 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:00,757 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:00,797 INFO     ----- Storing result object ------
+2023-12-25 23:12:00,797 INFO     -----Result object has size: 0.048 kB
+2023-12-25 23:12:09,048 INFO     ----- Storing problem object ------
+2023-12-25 23:12:13,929 INFO     ---- Evaluating run 1 from 10 with NSGA-II completed ----
+
+2023-12-25 23:12:14,117 INFO     ------ Running run 2 from 10 with NSGA-II ------ 
+
+2023-12-25 23:12:14,119 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 23:12:15,275 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:17,503 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:19,674 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:21,849 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:24,002 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:26,158 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:28,490 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:30,640 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:32,800 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:34,963 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:37,114 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:39,432 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:41,627 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:43,827 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:46,035 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:48,256 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:50,625 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:52,852 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:55,120 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:57,337 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:12:59,592 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:01,993 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:04,231 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:06,480 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:08,730 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:10,991 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:13,456 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:15,774 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:18,075 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:20,366 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:22,682 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:25,184 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:27,505 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:29,831 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:32,177 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:34,495 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:37,026 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:39,364 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:41,749 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:44,104 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:46,462 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:49,060 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:51,468 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:53,866 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:56,234 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:13:58,613 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:01,222 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:03,638 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:06,108 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:08,540 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:08,579 INFO     ----- Storing result object ------
+2023-12-25 23:14:08,579 INFO     -----Result object has size: 0.048 kB
+2023-12-25 23:14:16,788 INFO     ----- Storing problem object ------
+2023-12-25 23:14:22,128 INFO     ---- Evaluating run 2 from 10 with NSGA-II completed ----
+
+2023-12-25 23:14:22,331 INFO     ------ Running run 3 from 10 with NSGA-II ------ 
+
+2023-12-25 23:14:22,331 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 23:14:23,480 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:25,690 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:27,844 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:29,992 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:32,152 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:34,316 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:36,640 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:38,820 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:41,026 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:43,198 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:45,385 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:47,720 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:49,928 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:52,160 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:54,368 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:56,582 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:14:58,957 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:01,211 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:03,442 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:05,698 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:07,962 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:10,384 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:12,674 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:14,941 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:17,223 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:19,519 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:21,994 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:24,305 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:26,596 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:28,894 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:31,216 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:33,717 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:36,086 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:38,441 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:40,786 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:43,133 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:45,698 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:48,084 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:50,459 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:52,809 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:55,192 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:15:57,793 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:16:00,221 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:16:02,601 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:16:04,987 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:16:07,409 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:16:10,038 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:16:12,452 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:16:14,879 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:16:17,297 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:16:17,338 INFO     ----- Storing result object ------
+2023-12-25 23:16:17,338 INFO     -----Result object has size: 0.048 kB
+2023-12-25 23:16:54,133 INFO     ----- Storing problem object ------
+2023-12-25 23:16:59,394 INFO     ---- Evaluating run 3 from 10 with NSGA-II completed ----
+
+2023-12-25 23:16:59,591 INFO     ------ Running run 4 from 10 with NSGA-II ------ 
+
+2023-12-25 23:16:59,602 INFO     Initialized algorithm with config: {'population_size': 20, 'n_generations': 50, 'prob_mutation': 0.3333333333333333}
+2023-12-25 23:17:00,875 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:03,050 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:05,185 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:07,292 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:09,405 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:11,539 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:13,809 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:15,985 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:18,149 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:20,292 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:22,450 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:24,739 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:26,909 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:29,088 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:31,294 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:33,479 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:35,802 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:37,994 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:40,235 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:42,494 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:44,746 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:47,161 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:49,414 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:51,680 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:17:54,144 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:18:20,930 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:19:26,138 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:22:39,180 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:22:41,520 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:22:43,811 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:22:46,083 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:22:48,597 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:25:12,008 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:25:14,390 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:25:16,703 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:25:19,025 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:25:21,598 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:25:23,942 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:25:26,279 INFO     Individual evaluated and mutated digit created.
+2023-12-25 23:25:28,596 INFO     Individual evaluated and mutated digit created.

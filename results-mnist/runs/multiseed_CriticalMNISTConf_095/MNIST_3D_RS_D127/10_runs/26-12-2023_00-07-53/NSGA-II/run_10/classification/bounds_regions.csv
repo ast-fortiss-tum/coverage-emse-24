@@ -1,0 +1,3 @@
+region,lower_bound,upper_bound
+region 0,[ 2.71398854 -8.          2.288064  ],[ 8.  8. 17.]
+region 1,[-8. -8.  0.],[8.       8.       2.288064]

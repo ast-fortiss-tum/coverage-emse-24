@@ -1,0 +1,10 @@
+Attribute,Value
+Id,49c26751-47d7-4698-96ad-81db89c8111b
+Timestamp,27-12-2023_16:05:19
+Problem,MNIST_3D_RS_D152
+Algorithm,RS
+Search variables,"['mut_extent_1', 'mut_extent_2', 'vertex_control']"
+Search space,"[(-8.0, 8.0), (-8.0, 8.0), (0.0, 21.0)]"
+Fitness function,<No name available>
+Critical function,CriticalMNISTConf_095
+Search time,1.00 sec

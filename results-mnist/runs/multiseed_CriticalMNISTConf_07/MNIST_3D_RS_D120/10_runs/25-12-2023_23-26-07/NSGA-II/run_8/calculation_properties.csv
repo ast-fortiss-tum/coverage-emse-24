@@ -1,0 +1,10 @@
+Attribute,Value
+Id,9e7b3c8c-c7d0-488f-923c-621f78629d74
+Timestamp,27-12-2023_16:01:27
+Problem,MNIST_3D_NSGA-II_D120
+Algorithm,NSGA-II
+Search variables,"['mut_extent_1', 'mut_extent_2', 'vertex_control']"
+Search space,"[(-8.0, 8.0), (-8.0, 8.0), (0.0, 19.0)]"
+Fitness function,<No name available>
+Critical function,CriticalMNISTConf_07
+Search time,1.00 sec

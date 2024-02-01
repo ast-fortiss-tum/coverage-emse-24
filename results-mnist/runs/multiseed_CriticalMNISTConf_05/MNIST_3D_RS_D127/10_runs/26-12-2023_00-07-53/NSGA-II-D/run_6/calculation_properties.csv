@@ -1,0 +1,13 @@
+Attribute,Value
+Id,13572ddc-5a66-467c-99f7-64700003ef35
+Timestamp,26-12-2023_00:28:34
+Problem,MNIST_3D_NSGA-II-D_D127
+Algorithm,NSGA-II
+Search variables,"['mut_extent_1', 'mut_extent_2', 'vertex_control']"
+Search space,"[(-8.0, 8.0), (-8.0, 8.0), (0.0, 17.0)]"
+Fitness function,<No name available>
+Critical function,CriticalMNISTConf_05
+Search time,113.52 sec
+population_size,20
+n_generations,50
+prob_mutation,0.3333333333333333
