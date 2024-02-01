@@ -7,6 +7,8 @@ This repository holds the implementation and evaluation results of the study in 
 
 ## AVP
 
+<div align="center"><img src="figures/avp_scenario_one.PNG" width="300"/></div>
+
 The results of the AVP Case Study can be found [here](results-avp). It contains:
 
 - The generated test case for each run: [results-avp\runs](results-avp/runs/)
@@ -20,7 +22,10 @@ CID results related to different sampling approaches (sampling size and sampling
 Eeach folder is labeled according to `<samplingmethod>_<resolution>`.
 
 
+
 ## MNIST
+<div align="center"><img src="figures/D129.PNG" width="100"/><img src="figures/D129_cn0.93_b0.67.PNG" width="100"/></div>
+
 
 The results of the AVP Case Study can be found here: [results-mnist](results-mnist)
 - The generated test case for each run for all used seed digits  are available here: [results-mnist\runs](results-mnist/runs/)
