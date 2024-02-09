@@ -28,6 +28,7 @@ Eeach folder is labeled according to `<samplingmethod>_<resolution>`. The result
 
 
 The results of the AVP Case Study can be found here: [results-mnist](results-mnist)
+- The used model for the digit classification is available here: [model](https://github.com/ast-fortiss-tum/coverage-emse-24/blob/main/code/code-mnist/problem/mnist/models/model_mnist.h5)
 - The generated test case for each run for all used seed digits  are available here: [results-mnist\runs](results-mnist/runs/)
 - Coverage results for on average 20 seeds are given here: [results-mnist\cid](results-mnist/cid/). Coverage results for each individual seed for the selected oracle `<oracle>` given can be found in the folder named `results-mnist/runs/multiseed_<oracle>`. Statistical test results are located in the file named `cid_significance.csv`.
 
