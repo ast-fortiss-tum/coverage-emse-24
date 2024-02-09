@@ -7,7 +7,7 @@ This repository holds the implementation and evaluation results of the study in 
 
 ## AVP
 
-<div align="center"><img src="figures/avp_scenario_one.PNG" width="300"/></div>
+<img align="right" src="figures/avp_scenario_one.PNG" width="300"/>
 
 The results of the AVP Case Study can be found [here](results-avp). It contains:
 
@@ -19,12 +19,12 @@ The corresponding reference sets used for CID evaluation can be found here: [ref
 The suffix of the files represents the restriction level of the oracle used. The corresponding 3D visualization of the reference sets is available here: [ref-set\avp\oracle-variation\os](ref-set/avp/oracle-variation/os)
 
 CID results related to different sampling approaches (sampling size and sampling method variation) for a fixed test oracle can be found here: [sampling\variation](sampling-variation/) \
-Eeach folder is labeled according to `<samplingmethod>_<resolution>`.
+Eeach folder is labeled according to `<samplingmethod>_<resolution>`. The results contain for instance a list of all evaluated test cases, failing test cases, the visualization of all test cases in the design space and objective space. For further information which are results are written please have a look in the documentation of OpenSBT.
 
 
 
 ## MNIST
-<div align="center"><img src="figures/D129.PNG" width="100"/><img src="figures/D129_cn0.93_b0.67.PNG" width="100"/></div>
+<img align="right" src="figures/D129.PNG" width="97"/><img align="right" src="figures/D129_cn0.93_b0.67.PNG" width="108"/>
 
 
 The results of the AVP Case Study can be found here: [results-mnist](results-mnist)
@@ -88,7 +88,7 @@ python -m scripts.generate_multiseed_variation
 
 The oracle function(s) used need(s) to be specified inside the script in line 180. To create a customized oracle function you can use the Criticality class/interface from OpenSBT. When the script execution is finished, for each test oracle a new folder will be created with the name
 `<original_folder_name>_<oracle_function_name>`. Seed results are read by default from the folder named `results\analysis\multiseed\`. By default, a reference set using grid sampling with 10 samples per dimension will be generated. To modify
-the sampling resolution, update the variable [here](code/code-mnist/utils/sampling.py) in line 33. You can also provdide a reference set generated using a different sampling approach. The provided set should be compliant with the format given in the refence set file [here](TODO) and have to be place in the folder of a run.
+the sampling resolution, update the variable [here](code/code-mnist/utils/sampling.py) in line 33. You can also provide a reference set generated using a different sampling approach. The provided set should be compliant with the format given in the refence set file [here](TODO) and have to be placed in the folder of a run.
 
 When the evaluation is finished, three files are generated:
 - `avg_combined`: This files holds the averaged CID and standard deviation results over all seed digits for the algorithms NSGA-II, NSGA-II-D and RS.
