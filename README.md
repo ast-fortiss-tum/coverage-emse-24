@@ -7,14 +7,14 @@ This repository holds the implementation and evaluation results of the study in 
 
 <img align="right" src="figures/avp_scenario_one.PNG" width="300"/>
 
-The results of the AVP Case Study can be found [here](results-avp). It contains:
+The results of the AVP Case Study can be found [here](results-avp/). It contains:
 
 - The generated test case for each run: [results-avp\runs](results-avp/runs/)
 - Coverage results using the CID metric: [results-avp\cid](results-avp/cid)
 
-The corresponding reference sets used for CID evaluation can be found here: [ref-set\avp\oracle-variation]("ref-set/avp/oracle-variation/") 
+The corresponding reference sets used for CID evaluation can be found here: [ref-set\avp\oracle-variation](ref-set/avp/oracle-variation/) 
 
-The suffix of the files represents the restriction level of the oracle used. The corresponding 3D visualization of the reference sets is available here: [ref-set\avp\oracle-variation\os](ref-set/avp/oracle-variation/os)
+The suffix of the files represents the restriction level of the oracle used. 
 
 CID results related to different sampling approaches (sampling size and sampling method variation) for a fixed test oracle can be found here: [sampling\variation](sampling-variation/) \
 Eeach folder is labeled according to `<samplingmethod>_<resolution>`. The results contain for instance a list of all evaluated test cases, failing test cases, the visualization of all test cases in the design space and objective space. For further information which are results are written please have a look in the documentation of OpenSBT.
