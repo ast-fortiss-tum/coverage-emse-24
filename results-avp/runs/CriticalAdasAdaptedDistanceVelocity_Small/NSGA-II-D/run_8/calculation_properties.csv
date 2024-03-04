@@ -1,0 +1,10 @@
+Attribute,Value
+Id,0a12e14d-6c5c-4729-a985-b8274c8effd9
+Timestamp,04-03-2024_15:52:54
+Problem,Demo_AVP_NSGAII_Diverse
+Algorithm,NSGA-II
+Search variables,"['Ego_HostVelGain', 'Other_Velocity_mps', 'Other_Time_s']"
+Search space,"[(0.1, 1.0), (0.5, 2.0), (0.0, 5.0)]"
+Fitness function,FitnessAdaptedDistanceSpeedArchiveDistance
+Critical function,CriticalAdasAdaptedDistanceVelocity_VerySmall
+Search time,0.00 sec
