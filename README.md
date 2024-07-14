@@ -1,5 +1,5 @@
-# Replication package for the paper: "Can Optimization-Driven Search-Based Testing Effectively Cover Failure-Revealing Test Inputs? Insights from Two DL-Enabled Case Studies"
-This repository holds the implementation and evaluation results of the study in the paper "Can Optimization-Driven Search-Based Testing Effectively Cover Failure-Revealing Test Inputs? Insights from Two DL-Enabled Case Studies".
+# Replication package for the paper: "Can Search-Based Testing with Pareto Optimization Effectively Cover Failure-Revealing Test Inputs?"
+This repository holds the implementation and evaluation results of the study in the paper "Can Search-Based Testing  with Pareto Optimization Effectively Cover Failure-Revealing Test Inputs?".
 
 # Results
 
