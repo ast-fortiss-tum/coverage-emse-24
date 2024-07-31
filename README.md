@@ -1,3 +1,5 @@
+[ TO BE UPDATED SOON WITH NSGA-II-D AND OMOPSO RESULTS ]
+
 # Replication package for the paper: "Can Search-Based Testing with Pareto Optimization Effectively Cover Failure-Revealing Test Inputs?"
 This repository holds the implementation and evaluation results of the study in the paper "Can Search-Based Testing  with Pareto Optimization Effectively Cover Failure-Revealing Test Inputs?".
 
@@ -95,6 +97,11 @@ When the evaluation is finished, three files are generated:
 - `overview_cid`: This file contains CID values after the final evaluation on average for each run.
 
 An example can be found [here](results-mnist/cid/crit_large/).
+
+# Paramater Variation
+
+Preliminary experiments with different parameter configurations can be found [here](tuning).
+
 # Authors
 
 

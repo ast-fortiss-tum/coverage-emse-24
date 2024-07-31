@@ -1,0 +1,9 @@
+algo (subject: RS),p_value,effect
+MOPSO,0.048828125,0.34
+NSGA-II,0.10546875,0.3
+NSGAII-DJ_A0.29_SEQ,0.322265625,0.39
+algo (subject: MOPSO),p_value,effect
+NSGA-II,0.845703125,0.48
+NSGAII-DJ_A0.29_SEQ,0.6953125,0.57
+algo (subject: NSGA-II),p_value,effect
+NSGAII-DJ_A0.29_SEQ,0.76953125,0.59
