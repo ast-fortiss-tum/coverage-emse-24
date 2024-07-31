@@ -1,3 +1,0 @@
-region,lower_bound,upper_bound
-region 0,[0.1        1.31350601 1.14041603],[1. 2. 5.]
-region 1,[0.1 0.5 0. ],[1.        1.3086105 5.       ]
