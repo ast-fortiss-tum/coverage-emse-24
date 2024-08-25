@@ -1,4 +1,4 @@
-[ TO BE UPDATED SOON WITH NSGA-II-D AND OMOPSO RESULTS ]
+[ ** TO BE UPDATED SOON WITH PRELIMINARY TESTING RESULTS ** ]
 
 # Replication package for the paper: "Can Search-Based Testing with Pareto Optimization Effectively Cover Failure-Revealing Test Inputs?"
 This repository holds the implementation and evaluation results of the study in the paper "Can Search-Based Testing  with Pareto Optimization Effectively Cover Failure-Revealing Test Inputs?".
