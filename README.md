@@ -105,7 +105,7 @@ Preliminary experiments with different parameter configurations can be found [he
 # Authors
 
 
-Lev Sorokin (sorokin@fortiss.org), \
+Lev Sorokin (lev.sorokin@tum.de, sorokin@fortiss.org), \
 Damir Safin (safin@fortiss.org)
 
 Automated Software Testing \
